@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="info.daries.rp.discord" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/package.xsd">
+    <packageinformation>
+        <packagename>Raidplaner: Discord</packagename>
+        <packagedescription>With this plugin you post upcoming raids directly to Discord.</packagedescription>
+        <packagedescription language="de">Mit diesen Plugin posten Sie anstehende Raids direkt in den Discord.</packagedescription>
+        <version>2.0.0 pl 2</version>
+        <date>2022-07-30</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author>Marco Daries</author>
+        <authorurl>https://daries.info</authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="2.0.0">info.daries.rp</requiredpackage>
+        <requiredpackage minversion="2.1.0">dev.hanashi.wsc.discord-api</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <requiredpackage minversion="2.1.0">info.daries.rp</requiredpackage>
+        <requiredpackage minversion="2.2.0">dev.hanashi.wsc.discord-api</requiredpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+        <instruction type="file" application="rp">files_rp.tar</instruction>
+        
+        <instruction type="database" run="standalone" application="rp">acp/database/install_rp1_event_discord.php</instruction>
+        
+        <instruction type="option" />
+        <instruction type="eventListener" />
+        <instruction type="templateListener" />
+        
+        <instruction type="language" />
+    </instructions>
+    
+    <instructions type="update" fromversion="2.0.0 pl 1">
+        <instruction type="file" application="rp">files_rp.tar</instruction>
+    </instructions>
+</package>

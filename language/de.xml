@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="de" languagename="Deutsch">
+    <category name="rp.event">
+        <item name="rp.event.discord.field.value"><![CDATA[{@$count} von {@$maxCount} Anmeldungen]]></item>
+    </category>
+    
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.rp.calendar.discord"><![CDATA[Discord]]></item>
+        <item name="wcf.acp.option.rp_event_raid_discord_channel"><![CDATA[Discord Kanal]]></item>
+        <item name="wcf.acp.option.rp_event_raid_discord_channel.description"><![CDATA[Geben Sie den Channel des Discord an, wo es gepostet wird. Es kann in mehrere Discords/Channels gepostet werden.]]></item>
+        <item name="wcf.acp.option.rp_event_raid_discord_interval"><![CDATA[Wiederholung]]></item>
+        <item name="wcf.acp.option.rp_event_raid_discord_interval.description"><![CDATA[In welchen Abständen soll das posten in Discord wiederholt werden?]]></item>
+        <item name="wcf.acp.option.rp_event_raid_discord_start"><![CDATA[Beginn Posting]]></item>
+        <item name="wcf.acp.option.rp_event_raid_discord_start.description"><![CDATA[Beginn des Posting in Doscord, bevor der Termin startet.]]></item>
+    </category>
+</language>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/option.xsd">
+    <import>
+        <categories>
+            <category name="rp.calendar.discord">
+                <parent>rp.calendar</parent>
+            </category>
+        </categories>
+        
+        <options>
+            <!-- rp.calendar.discord -->
+            <option name="rp_event_raid_discord_channel">
+                <categoryname>rp.calendar.discord</categoryname>
+                <optiontype>discordChannelSelect</optiontype>
+            </option>
+            <option name="rp_event_raid_discord_start">
+                <categoryname>rp.calendar.discord</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>2</defaultvalue>
+                <suffix>hours</suffix>
+                <min>1</min>
+            </option>
+            <option name="rp_event_raid_discord_interval">
+                <categoryname>rp.calendar.discord</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>60</defaultvalue>
+                <suffix>minutes</suffix>
+                <min>1</min>
+            </option>
+            <!-- /rp.calendar.discord -->
+        </options>
+    </import>
+</data>

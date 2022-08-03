@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/eventListener.xsd">
+    <import>
+        <eventlistener name="eventDiscordAction">
+			<eventclassname>rp\data\event\EventAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>rp\system\event\listener\EventActionDiscordListener</listenerclassname>
+		</eventlistener>
+    </import>
+</data>
